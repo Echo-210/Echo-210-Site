@@ -76,24 +76,38 @@ header {
   background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
   padding: 10px;
   border-radius: 10px;
-  display: inline-block; /* Ensures the box only takes up as much width as needed */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
   margin: 20px auto; /* Center the box within the header */
+  max-width: 100%; /* Ensure the box doesn't exceed screen width */
 }
 
 .header-link {
   display: inline-block;
-  margin: 0 15px; /* Adds space between links */
+  margin: 5px 15px; /* Adds space between links */
   padding: 5px 10px; /* Adds padding around the text */
   color: #b5e853; /* Echo210's theme color */
   font-family: 'Press Start 2P', monospace; /* Matches the site's theme */
   text-decoration: none;
   transition: background-color 0.3s ease; /* Smooth transition for hover effects */
+  flex-basis: calc(50% - 30px); /* Each link takes up 50% of the width minus the margins */
+  text-align: center; /* Center the text within each link */
 }
 
 .header-link:hover {
   background-color: rgba(181, 232, 83, 0.2); /* Light green hover effect */
   border-radius: 5px; /* Slightly rounded corners on hover */
 }
+
+/* Media query for very small screens */
+@media (max-width: 400px) {
+  .header-link {
+    flex-basis: 100%; /* Each link takes up full width on very small screens */
+    margin: 5px 0; /* Adjust margin to fit the full-width layout */
+  }
+}
+
 
 
 header h1 {
