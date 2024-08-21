@@ -36,7 +36,6 @@ Echo210 is all about celebrating technology and the San Antonio community. We’
 
 3. **Include Contact Information**: While not required, you may include contact information in case we need to reach out to you about your submission.
 
-4. **Submission Deadline**: Please be mindful of our submission deadlines, especially if you're aiming to be included in a specific issue. For our first issue, the deadline is **September 15th**.
 
 ## Print-Only Publication
 
