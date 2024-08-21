@@ -1,5 +1,5 @@
 ---
-title: Echo210 is going live!
+title: Hello World!
 published: true
 ---
 
@@ -23,7 +23,7 @@ Some ideas for submissions include:
 
 ## How to Submit
 
-Submissions should be sent to [articles@echo210.com](mailto:articles@echo210.com). We encourage you to submit using your real name or whatever you would like to be called—it's entirely up to you. This is your chance to be a part of a new publication and immortalize yourself in the pages of Echo210.
+Submissions should be sent to [articles@echo210.com](mailto:articles@echo210.com). For more information about submission guidelines and the types of content we are looking for, please visit our [Submissions](https://echo210.com/howToSubmit) page. We encourage you to submit using your real name or whatever you would like to be called—it's entirely up to you. This is your chance to be a part of a new publication and immortalize yourself in the pages of Echo210.
 
 ## Print-Only Publication
 
