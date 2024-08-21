@@ -21,6 +21,28 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
+header a {
+  color: inherit; /* Ensure the header link does not change color */
+  text-shadow: none; /* Remove any text shadow from the header link */
+  text-decoration: none; /* Remove underline specifically for header links */
+}
+
+header {
+  background: rgba(0, 0, 0, 0.1);
+  border-bottom: 1px dashed $conifer; //header;
+  padding: 20px;
+  margin: 0 0 40px 0;
+  text-align: center; /* Center the content horizontally */
+}
+
+header pre {
+  background: none;
+  text-shadow: none;
+  margin: 0 auto; /* Center the ASCII art within the header */
+}
+
+
+
 /* General & 'Reset' Stuff */
 
 .container {
