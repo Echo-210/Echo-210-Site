@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
+{% include analytics.html %}
 
 <body>
   <div id="wrapper">
@@ -33,10 +34,6 @@
     {% endif %}
   </div>
   {% endif %} {% include footer.html %}
-
-  {% if site.google_analytics %}
-    {% include analytics.html %}
-  {% endif %}
 </body>
 
 </html>
